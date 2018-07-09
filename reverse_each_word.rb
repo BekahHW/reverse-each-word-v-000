@@ -19,8 +19,6 @@
 def reverse_each_word(sentence)
  new_array = sentence.split().collect(&:reverse!)
  new_array.join(" ")
-  # new_array.collect do |word| 
-  # end
 end
  
 # def hamburger(toppings)
