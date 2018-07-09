@@ -16,7 +16,8 @@
 
 def reverse_each_word(sentence)
 sentence = []
-a.map(&:reverse!)
+sentence.map(&:reverse!)
+end
  
 # def hamburger(toppings)
 # toppings.collect do |topping|
