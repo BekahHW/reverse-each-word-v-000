@@ -17,7 +17,7 @@
 
 
 def reverse_each_word(sentence)
- sentence.split( ).collect(&:reverse!)
+ sentence.split().collect(&:reverse!)
   # new_array.collect do |word| 
   # end
 end
