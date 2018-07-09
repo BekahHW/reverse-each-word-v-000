@@ -4,7 +4,7 @@
 # end   
 # end
 
->> "1,2,3,4".split(",").map { |s| s.to_i }
+# >> "1,2,3,4".split(",").map { |s| s.to_i }
 
 
 # def reverse_each_word(sentence)
