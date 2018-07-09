@@ -6,20 +6,20 @@
 
 
 
+def reverse_each_word(sentence)
+  new_array = sentence.split(" ")
+  new_array.collect do |word| 
+  reverse_array = "#{word.reverse}"
+end
+end
+
+
 # def reverse_each_word(sentence)
 #   new_array = sentence.split(" ")
+#   new_array.map(&:reverse!)
 #   new_array.collect do |word| 
-#   reverse_array = "#{word.reverse}"
+#   end
 # end
-# end
-
-
-def reverse_each_word(sentence)
-   new_array = sentence.split(" ")
-  new_array.map(&:reverse!)
-  new_array.collect do |word| 
-  end
-end
  
 # def hamburger(toppings)
 # toppings.collect do |topping|
